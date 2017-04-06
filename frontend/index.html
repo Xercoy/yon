@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/vue.resource/1.2.1/vue-resource.min.js"></script>
+   
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"></link>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></link>
+   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+   <link href="./styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="vert-container">
+    <div id="app" class="container">
+        <div class="row justify-content-center font d-flex">
+            <div class="row col-md-12">
+                <p><h1>A randomized answer to your random question:</h1></p>
+            </div>
+            <div class="row col-md-12 justify-content-center">
+                <p class="answer"> &lt;{{ yesno.string }}&gt; </p>
+            </div>
+        </div>
+    </div>
+    <div>
+</body>
+
+<script src="./component.js"></script>
+<script src="./app.js"></script>
+
+</html>

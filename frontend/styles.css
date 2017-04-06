@@ -1,0 +1,13 @@
+.font {
+   font-family: 'Press Start 2P', cursive;
+}
+
+.answer {
+    font-size: 1000%;
+}
+.vert-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
