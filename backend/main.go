@@ -31,7 +31,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	addr := flag.String("address", ":8080", "host address")
+	addr := flag.String("address", ":8065", "host address")
 	flag.Parse()
 
 	http.HandleFunc("/", handler)
